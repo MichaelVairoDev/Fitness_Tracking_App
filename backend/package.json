@@ -1,0 +1,26 @@
+{
+  "name": "fitness-tracking-app-backend",
+  "version": "1.0.0",
+  "description": "Backend para la aplicación de seguimiento de fitness",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.10.1",
+    "jsonwebtoken": "^9.0.1",
+    "mongoose": "^7.4.3",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.5-lts.1",
+    "@tensorflow/tfjs-node": "^4.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+} 
